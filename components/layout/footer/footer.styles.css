@@ -1,0 +1,75 @@
+
+.Footer {
+    display: flex;
+    width: 100vw;
+    padding: 2rem;
+    color: #a1a1a1;
+    background-image: linear-gradient(rgb(0, 26, 44), rgb(0, 6, 26));
+  
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .Footer img {
+    height: 5rem;
+    width: auto;
+  }
+  .Footer-ele-1 {
+    flex: 0.5;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+  .Footer-ele-2 {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-left: 1px solid #0ea6dd5e;
+    padding-left: 2rem;
+  }
+  .Footer-ele-3 {
+    flex: 0.6;
+    /* align-items: end; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-right: 2rem;
+  }
+  .Footer-ele-3 form {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Footer-ele-3 input {
+    width: 70%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+  .Footer-ele-3 button {
+    background-color: #0ea6dd;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: white;
+  }
+  .footer-copyright {
+    width: 100%;
+    color: #a0e6ff;
+    background-color: #0e1e29;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 1rem;
+  }
+  

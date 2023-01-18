@@ -1,0 +1,43 @@
+.section-login {
+    background-color: #0ea6dd;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    padding: 4rem 0;
+    justify-content: center;
+    gap: 1.5rem;
+    /* position: fixed; */
+    z-index: 999;
+  }
+  .section-login > q {
+    font-family: "Kalam", cursive;
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: 3px 3px #0e061e;
+  }
+  
+  .section-login > p {
+    font-size: 1.5rem;
+    color: #041b49;
+    font-family: "Kalam", cursive;
+  }
+  
+  .section-login a {
+    background-color: #0ea6dd;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    box-shadow: 5px 5px 1.5rem #00233065, -5px -5px 1.5rem #a2e6ffa5;
+    border: 1px solid rgba(255, 255, 255, 0.327);
+    transition: 300ms;
+    cursor: pointer;
+  }
+  .section-login a:hover {
+    background-color: #fff;
+    color: #0ea6dd;
+    box-shadow: 5px 5px 1rem #002330e4, -5px -5px 1rem #a2e6ffdc;
+  }

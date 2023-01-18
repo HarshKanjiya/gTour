@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Pacifico", cursive;  */
+  font-family: "Poppins", sans-serif;
+  /* scroll-behavior: smooth; */
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track  */
+::-webkit-scrollbar-track {
+  background: #46b6df;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3f7396;
+  border-radius: 2px;
+}
+
+body {
+  overflow-x: hidden;
+  background-image: linear-gradient(35deg, rgb(18, 21, 40), rgb(2, 3, 9));
+  color: #fff;
+  line-height: 1;
+}
+
+
+.intro {
+  text-align: center;
+}
+
+.section-reviews {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  align-items: center;
+}
+.section-reviews > h1 {
+  padding: 2rem 0;
+  font-weight: 700;
+  font-family: "Kalam", cursive;
+}
+.reviews-wrapper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: max-content;
+    width: 830px;
+  margin: 0 auto;
+}
+.review-card-wrapper {
+  width: 250px;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 7px;
+  border: 2px solid rgba(30, 30, 30, 0.175);
+  box-shadow: 5px 5px 1.5rem rgba(0, 0, 0, 0.15),
+    -5px -5px 1.5rem rgba(255, 255, 255, 0.06);
+  transition: 300ms;
+}
+.review-card-wrapper:hover {
+  border: 2px solid rgba(97, 97, 97, 0.175);
+  box-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.2),
+    -5px -5px 1rem rgba(255, 255, 255, 0.03);
+}
+.review-card-body {
+  opacity: 0.5;
+}
+.review-card-name {
+  opacity: 0.4;
+  width: 100%;
+  text-align: right;
+}
