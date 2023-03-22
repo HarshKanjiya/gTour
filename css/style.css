@@ -62,11 +62,11 @@ body {
 .section-reviews {
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   align-items: center;
 }
 .section-reviews > h1 {
-  padding: 2rem 0;
+  padding: 1rem 0;
   font-weight: 700;
   font-family: "Kalam", cursive;
 }
@@ -101,3 +101,5 @@ body {
   width: 100%;
   text-align: right;
 }
+
+

@@ -13,26 +13,24 @@
 
 <body>
   <div class="login-wrapper">
-  <img class="auth-back-logo" src="./assets/Gtour_logo.png" alt="logo" />
-
+    <img class="auth-back-logo" src="./assets/Gtour_logo.png" alt="logo" />
     <div class="login-container">
       <div class="left register-sideImg"></div>
       <div class="right">
         <div class="login-header">Sign UP</div>
-        <form class="login-body">
+        <form class="login-body" method="post" action="./auth_loading.php">
+          <input hidden name="type" value="register" />
           <div class="input-wrapper">
             <i class="fa-solid fa-signature input-wrapper-icon "></i>
-            <input placeholder="Name" type="text" />
+            <input placeholder="Name" type="text" name="name" required />
           </div>
           <div class="input-wrapper">
             <i class="fa-solid fa-envelope input-wrapper-icon "></i>
-
-            <input placeholder="Email" type="email" />
+            <input placeholder="Email" type="email" name="email" required />
           </div>
           <div class="input-wrapper">
             <i class="fa-sharp fa-solid fa-key input-wrapper-icon"></i>
-
-            <input placeholder="Password" type="password" id="login-password" />
+            <input placeholder="Password" type="password" id="login-password" name="password" />
             <i class="fa-sharp fa-solid fa-eye Password-visiblity" id="login-password-btn"></i>
           </div>
           <button type="submit">CREATE ACCOUNT</button>
@@ -44,7 +42,7 @@
       </div>
     </div>
   </div>
-  <script src="./scripts//login.js"></script>
+  <script src="./scripts/login.js"></script>
 </body>
 
 </html>

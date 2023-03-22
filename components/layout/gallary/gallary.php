@@ -1,5 +1,5 @@
 <?php
-echo '<div class="section-gallary">
+echo '<div class="section-gallary" style="background:#0ea6dd" >
 <h1>Gallery</h1>
 <ul class="gallery">
   <li>

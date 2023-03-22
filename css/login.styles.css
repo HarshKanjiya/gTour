@@ -1,3 +1,10 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .login-wrapper {
   height: 100vh;
   width: 100vw;
@@ -12,6 +19,8 @@
   align-items: center;
   justify-content: center;
   z-index: -1;
+  margin: 0;
+  padding: 0;
 }
 .login-container {
   width: max-content;
@@ -245,3 +254,4 @@ footer a:hover {
   background-color: rgb(68, 142, 245);
   width: 10rem;
 }
+

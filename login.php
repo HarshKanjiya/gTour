@@ -24,7 +24,9 @@
       </div>
       <div class="right">
         <div class="login-header">Login</div>
-        <form class="login-body" method="post" action="./login.php">
+        <form class="login-body" method="post" action="./auth_loading.php">
+          <input hidden name="type" value="login" />
+          <input hidden name="name" value="" />
 
           <div class="input-wrapper">
             <i class="fa-solid fa-envelope input-wrapper-icon "></i>

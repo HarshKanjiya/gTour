@@ -25,6 +25,7 @@ nav img {
 }
 .nav-ele {
   position: relative;
+  cursor: pointer;
 }
 .nav-nav a {
   padding: 0.4rem 0.7rem;

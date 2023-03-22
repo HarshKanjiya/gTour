@@ -19,7 +19,6 @@
 
   <script src="https://kit.fontawesome.com/0439b6ee0f.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
 
 <!-- header -->
